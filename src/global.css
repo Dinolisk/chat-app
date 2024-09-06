@@ -1,0 +1,97 @@
+/* Centering the form content */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;     /* Horizontal centering */
+    justify-content: flex-start; /* Start content closer to the top */
+    height: 100vh;
+    padding-top: 50px;       /* Some padding to avoid sticking to the top */
+    background-color: #f4f4f99f;
+}
+
+/* Shared form container (white box) */
+.form-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;        /* Maximum width of the form */
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;          /* Center the form horizontally */
+    margin-bottom: 20px;     /* Space below the form */
+}
+
+/* Shared input styling for both login and register */
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.shared-btn {
+    padding: 8px 20px;            
+    font-size: 1rem;            
+    border-radius: 20px;         
+    background-color: #6f42c1;    
+    color: white;                 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;                 
+    width: 100%;                  
+    max-width: 220px;            
+    margin: 10px auto;            
+    text-decoration: none;        
+}
+
+.shared-btn:hover {
+    background-color: #5a42a1;    
+}
+/* Basic styling for header */
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;   /* Center the link horizontally */
+    align-items: center;       /* Center vertically */
+    padding: 20px 0;           /* Add some padding for spacing */
+    background-color: rgba(255, 255, 255, 0.899);/* Add a semi-transparent background */
+    position: relative;        /* Ensure it's positioned correctly */
+    z-index: 10;               /* Make sure it's on top of the background image */
+}
+
+/* Simple clickable Home link */
+.navbar-home-link {
+    font-size: 1.5rem;          /* Larger text size */
+    color: black;               /* Ensure black text stands out */
+    text-decoration: none;      /* No underline by default */
+    font-weight: bold;          /* Make it bold */
+    padding: 10px 20px;         /* Add padding to make it clickable */
+}
+
+.navbar-home-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+/* Apply background image to the entire page */
+body {
+   background-color: aquamarine;
+    background-size: cover;           /* Ensure the image covers the entire page */
+    background-position: center;      /* Center the image */
+    background-repeat: no-repeat;     /* Prevent the background from repeating */
+    height: 100vh;                    /* Ensure it covers the full height of the viewport */
+    margin: 0;                        /* Remove any default margins */
+}
+
+/* Optional: Overlay or specific content box styles */
+.page-container {
+    background-color: rgba(255, 255, 255, 0.355); /* Translucent overlay for the content */
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

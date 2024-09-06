@@ -1,0 +1,50 @@
+/* Full page styling */
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center the entire content vertically */
+    height: 100vh;
+    background-color: #f4f4f9; /* Optional background */
+}
+
+/* Fixed Home Title */
+.home-title {
+    margin-bottom: 30px;
+}
+
+.home-title h1 {
+    color: #6f42c1;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Centering the content box */
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* The welcome card */
+.home-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Auth links container */
+.auth-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Center the buttons */
+    gap: 15px;
+    width: 100%;
+    max-width: 250px; /* Ensure a consistent width */
+}
