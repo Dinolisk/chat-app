@@ -59,10 +59,10 @@
 .header {
     width: 100%;
     display: flex;
-    justify-content: center;   /* Center the link horizontally */
+    justify-content: center;   
     align-items: center;       /* Center vertically */
     padding: 20px 0;           /* Add some padding for spacing */
-    background-color: rgba(255, 255, 255, 0.899);/* Add a semi-transparent background */
+    background-color: rgba(255, 255, 255, 0.899);
     position: relative;        /* Ensure it's positioned correctly */
     z-index: 10;               /* Make sure it's on top of the background image */
 }
@@ -82,13 +82,12 @@
 /* Apply background image to the entire page */
 body {
    background-color: aquamarine;
-    background-size: cover;           /* Ensure the image covers the entire page */
-    background-position: center;      /* Center the image */
-    background-repeat: no-repeat;     /* Prevent the background from repeating */
-    height: 100vh;                    /* Ensure it covers the full height of the viewport */
-    margin: 0;                        /* Remove any default margins */
+    background-size: cover;          
+    background-position: center;     
+    background-repeat: no-repeat;     
+    height: 100vh;                    
+    margin: 0;                        
 }
-
 /* Optional: Overlay or specific content box styles */
 .page-container {
     background-color: rgba(255, 255, 255, 0.355); /* Translucent overlay for the content */
