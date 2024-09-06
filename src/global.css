@@ -79,7 +79,7 @@
 .navbar-home-link:hover {
     text-decoration: underline; /* Underline on hover */
 }
-/* Apply background image to the entire page */
+
 body {
    background-color: aquamarine;
     background-size: cover;          
@@ -88,9 +88,9 @@ body {
     height: 100vh;                    
     margin: 0;                        
 }
-/* Optional: Overlay or specific content box styles */
+
 .page-container {
-    background-color: rgba(255, 255, 255, 0.355); /* Translucent overlay for the content */
+    background-color: rgba(255, 255, 255, 0.355); 
     padding: 2rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
