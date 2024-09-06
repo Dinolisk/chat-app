@@ -1,0 +1,59 @@
+/* Consistent page styling for login */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center the content vertically */
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+/* Same title positioning */
+.home-title {
+    margin-bottom: 30px;
+}
+
+.home-title h1 {
+    color: #6f42c1;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Login form container */
+.login-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Login form styling */
+.login-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Ensure buttons are consistent */
+.auth-links a.btn {
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    background-color: #6f42c1;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Same height */
+    width: 100%; /* Ensure full width */
+}
+
+.auth-links a.btn:hover {
+    background-color: #5a42a1;
+}

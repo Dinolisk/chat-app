@@ -1,0 +1,47 @@
+/* Full page styling */
+.register-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; /* Adjusts the start of the content higher up */
+    height: 100vh;
+}
+
+/* Fixed Home menu */
+.home-menu {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.home-menu a.navbar-brand {
+    font-size: 2rem;
+    color: #6f42c1;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.home-menu a.navbar-brand:hover {
+    text-decoration: underline;
+}
+
+/* Content that sits under the Home menu */
+.register-content {
+    margin-top: 100px; /* Push the content down to avoid overlapping the Home menu */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* The register card */
+.register-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
